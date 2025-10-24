@@ -73,7 +73,7 @@ const EventCard = ({ event, onUpdate, onDelete }) => {
             <button onClick={() => setEditing(true)} className="px-3 py-1 bg-yellow-500 text-white rounded hover:bg-yellow-600">Edit</button>
             <button onClick={handleDelete} className="px-3 py-1 bg-red-500 text-white rounded hover:bg-red-600">Delete</button>
             <button onClick={toggleStatus} className="px-3 py-1 bg-blue-500 text-white rounded hover:bg-blue-600">
-              {event.status === "upcoming" ? "Mark Completed" : "Mark Upcoming"}
+              {event.status === "upcoming" ? "Mark Upcoming " : "Mark Completed"}
             </button>
           </div>
         </div>
